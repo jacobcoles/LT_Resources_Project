@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+
+  "name": "Wiki Swedish Quiz",
+  "description": "Makes quizzes using sparv for pos parsing. ",
+  "version": "1.0",
+
+  "action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+   "activeTab",
+   "storage",
+   "scripting",
+   "tabs"
+   ],
+   "options_page": "options.html"
+}
