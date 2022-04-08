@@ -19,8 +19,11 @@ There is a bug with how the python server retreives and re-compiles the HTML. It
 - Run the following lines:
     
     pip install -U flask-cors
+    
     pip install flask lxml bs4
+    
     export FLASK_APP=parser_python_server
+    
     flask run
     
 - Now hopefully the server should be running!
